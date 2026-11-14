@@ -223,7 +223,8 @@ def build_home(cfg, poems, secs, secmap, data):
   <span class="sec-sample">{esc(' · '.join(sample))}</span>
 </a>''')
     flowers = "".join(f'<span class="fall" style="--x:{x}%;--d:{d}s;--t:{t}s;--s:{sc}">{FLOWER}</span>'
-                      for x, d, t, sc in [(6,0,14,1),(18,5,17,.7),(31,9,15,.9),(52,2,19,.6),(67,7,16,1.1),(79,11,18,.8),(91,4,15,.7)])
+                      for x, d, t, sc in [(4,-3,13,1.1),(13,-9,16,.8),(24,-1,14,1.3),(36,-12,17,.9),(47,-6,15,1.2),
+                                          (58,-14,18,.85),(69,-4,14,1.25),(80,-10,16,1),(90,-7,13,1.15),(97,-2,17,.8)])
     body = f'''
 <section class="hero">
   <div class="petals" aria-hidden="true">{flowers}</div>
